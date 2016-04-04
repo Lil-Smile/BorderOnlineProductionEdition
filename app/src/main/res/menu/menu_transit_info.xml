@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item app:showAsAction="always"
+          android:id="@+id/action_choose_transport"
+          android:title="@string/cars"
+          android:icon="@drawable/car">
+        <menu>
+            <item app:showAsAction="always"
+                  android:id="@+id/action_cars_info"
+                  android:title="@string/cars"
+                  android:icon="@drawable/car"/>
+            <item app:showAsAction="always"
+                  android:id="@+id/action_trucks_info"
+                  android:title="@string/trucks"
+                  android:icon="@drawable/car"/>
+            <item app:showAsAction="always"
+                  android:id="@+id/action_busses_info"
+                  android:title="@string/busses"
+                  android:icon="@drawable/car"/>
+        </menu>
+    </item>
+    <item
+            android:id="@+id/action_favorite_info"
+            android:icon="@drawable/favorite"
+            android:title="@string/favorite"
+            app:showAsAction="always"/>
+
+</menu>
+

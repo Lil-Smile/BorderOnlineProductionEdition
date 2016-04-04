@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <ImageView
+            android:layout_width="@dimen/colorCheckingSize"
+            android:layout_height="@dimen/colorCheckingSize"
+            android:layout_margin="@dimen/marginLists"
+            android:id="@+id/imageViewColorChecking"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/textViewTransitCityName1"
+                    android:textSize="@dimen/smallTextSize"
+                    android:focusable="false"
+                    android:layout_margin="@dimen/marginLists" android:textAlignment="center"/>
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text=" -> "/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/textViewTransitCityName2"
+                    android:textSize="@dimen/smallTextSize"
+                    android:focusable="false"
+                    android:layout_margin="@dimen/marginLists" android:textAlignment="center"/>
+        </LinearLayout>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:textSize="@dimen/smallTextSize"
+                android:focusable="false"
+                android:id="@+id/textViewQueue"
+                android:layout_margin="@dimen/marginLists" android:textAlignment="center"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/textViewDataSource"/>
+    </LinearLayout>
+
+
+</LinearLayout>
